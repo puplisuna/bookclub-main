@@ -49,4 +49,32 @@
 
         box-shadow: 2px 0px 21px -3px crimson;
     }
+    nav{
+        background-color: cadetblue;
+        color: bisque;
+        border: 5px solid crimson;
+        padding: 5px;
+        margin: 10px ;
+        position: sticky;
+        z-index: 2;
+        top: 0;
+    }
+    ul{
+        list-style-type: none;
+
+    }
+    li a {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        font-weight: 600;
+    }
     
+    li a :hover{
+        color: crimson;
+    }
+    button{
+        position: fixed;
+        right: 50px;
+        bottom: 40px;
+    }

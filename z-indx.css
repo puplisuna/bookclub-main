@@ -1,0 +1,31 @@
+.div1{
+    z-index: 1;
+    right: 20px;
+    bottom: 10px;
+}
+.div2{
+    z-index: 2;
+    right: 30px;
+        bottom: 20px;
+
+}
+.div3{
+    z-index: 3;
+    right: 40px;
+        bottom: 30px;
+}
+.div4{
+    z-index: 4;
+    right: 50px;
+        bottom: 40px;
+}
+div{
+    position: relative;
+    background-color: rgb(72, 255, 0);
+    color: black;
+    border: 5px solid crimson;
+    
+    width: 100px;
+    
+
+}

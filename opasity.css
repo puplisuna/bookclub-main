@@ -1,0 +1,13 @@
+ .opasity1{
+    background-color: blue;
+
+    opacity: 1;
+ }
+ .opasity2{
+    background-color: blue;
+    opacity: 0.6;
+ }
+ .opasity3{
+    background-color: blue;
+    opacity: 0.3;
+ }
