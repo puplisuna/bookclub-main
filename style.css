@@ -43,6 +43,8 @@
         margin: 10px;
         text-align: center;
         box-shadow: 2px 0px 21px -3px crimson;
+        display: flex;
+        justify-content: space-around;
     }
 
     table{
@@ -77,4 +79,8 @@
         position: fixed;
         right: 50px;
         bottom: 40px;
+    }
+    nav ul{
+        display: flex ;
+        justify-content: space-around;
     }
