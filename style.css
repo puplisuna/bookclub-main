@@ -3,6 +3,7 @@
         padding: 20px;
         border: 5px solid blueviolet;
         margin: 10px;
+        
     }
 
     #intro{
@@ -35,7 +36,7 @@
         text-align: center;
     }
 
-    .teacher{
+    .teachers{
         background-color: coral;
         color: beige;
         border: 5px dashed black;
@@ -78,9 +79,60 @@
     button{
         position: fixed;
         right: 50px;
-        bottom: 40px;
+        bottom: 25px;
     }
     nav ul{
         display: flex ;
         justify-content: space-around;
     }
+
+    header{
+        grid-area: header;
+    }
+
+    nav{
+        grid-area: nav;
+
+    }
+
+#intro{
+    grid-area: intro;
+}
+
+#main-section{
+    grid-area: main-section;
+}
+
+#best-sellers{
+    grid-area: best-sellers;
+}
+
+footer{
+    grid-area: footer;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-areas: 
+    "header header header header intro"
+    "nav nav nav nav nav"
+    "main-section main-section main-section main-section best-sellers"
+    "footer footer footer footer footer"
+    ;
+}
+
+.teacher{
+    background-color: cornflowerblue;
+    border: 5px solid crimson;
+    padding: 10px;
+    margin: 8px;
+    box-shadow: 2px 2px 3px 1px gray;
+}
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
